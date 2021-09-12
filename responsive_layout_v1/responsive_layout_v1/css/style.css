@@ -8,6 +8,7 @@
 body {
 	font-family: 'Oxygen', sans-serif;	
 	margin: 0;
+  padding: 0 1rem;
 }
 
 a {
@@ -17,39 +18,65 @@ img {
 	max-width: 100%;
 }
 p {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;   
 }
+
 
 /* ================================= 
   Base Layout Styles
 ==================================== */
 
 /* ---- Navigation ---- */
-
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav li {
+  margin-bottom: 1rem;
+  border: 1px solid palegreen;
+  border-radius: 12px;
+}
+nav a {
+	display: block;
+	padding: 10px 15px;
+  color: darkslategrey;
+  font-weight: 700;
+}
 
 
 
 /* ---- Layout Containers ---- */
-.main-content, .nav {
-    display: flex;
-    flex-direction: column;
-}
+  header {
+    text-align: center;
+  }
+  body {
+    text-align: center;
+  }
 
 
 
 /* ---- Page Elements ---- */
     ul {
         list-style: none;
+        margin: 0;
+        padding: 0;
     }
+    
 
 /* ================================= 
   Media Queries
 ==================================== */
 
-@media (min-width: 769px) {
-
+@media (min-width: 768px) {
+  .main-content, .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-@media (min-width: 1025px) {
+
+  
+}
+@media (min-width: 1024px) {
 	
 }
 
