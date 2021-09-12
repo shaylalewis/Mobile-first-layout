@@ -1,0 +1,58 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Oxygen', sans-serif;	
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+
+
+
+/* ---- Layout Containers ---- */
+.main-content, .nav {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* ---- Page Elements ---- */
+    ul {
+        list-style: none;
+    }
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+}
+@media (min-width: 1025px) {
+	
+}
+
+
+
+
