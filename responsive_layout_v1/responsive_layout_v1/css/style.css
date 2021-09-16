@@ -22,6 +22,7 @@ img {
 
 p {
     font-family: 'Fira Sans', sans-serif;
+    line-height: 1.5rem;
 }
 
 
@@ -59,6 +60,7 @@ nav a {
 
 header {
     text-align: center;
+    padding-top: 5px;
 }
 
 body {
@@ -89,12 +91,19 @@ ul {
 ==================================== */
 
 @media (min-width: 768px) {
-    .main-content,
-    .nav {
+    .main-content {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    nav li {
+        border: none;
     }
     .col {
         width: 50%;
@@ -105,6 +114,23 @@ ul {
     }
     .hide {
         display: flex;
+    }
+    .btm-nav {
+        display: flex;
+    }
+    a.hide {
+        padding-right: 10px;
+    }
+    .head {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .head img,
+    .head p {
+        padding: 10px;
+    }
+    header {
+        background-color: rgba(220, 220, 220, 0.1);
     }
 }
 
