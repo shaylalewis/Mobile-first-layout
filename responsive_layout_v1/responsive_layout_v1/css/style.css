@@ -25,6 +25,10 @@ p {
     line-height: 1.5rem;
 }
 
+h2#contact {
+    padding-top: 10px;
+}
+
 
 /* ================================= 
   Base Layout Styles
@@ -44,15 +48,21 @@ nav ul {
 
 nav li {
     margin-bottom: 1rem;
-    border: 2px solid palegreen;
+    border: 2px solid rgba(204, 204, 204, 0.4);
     border-radius: 12px;
 }
 
-nav a {
+nav a,
+.topper {
     display: block;
     padding: 10px 15px;
-    color: darkslategrey;
+    color: #2D99C8;
     font-weight: 700;
+}
+
+.topper {
+    padding-left: 122px;
+    padding-top: 23px;
 }
 
 
@@ -83,6 +93,17 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+a.hide,
+.hide1 {
+    padding: 10px 15px;
+    color: #2D99C8;
+    font-weight: 700;
+}
+
+.hide1 {
+    padding-right: 128px;
 }
 
 
@@ -129,9 +150,26 @@ ul {
     .head p {
         padding: 10px;
     }
-    header {
-        background-color: rgba(220, 220, 220, 0.1);
+    header,
+    footer {
+        background-color: rgba(223, 231, 253, 0.3)
     }
 }
 
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+    .col {
+        width: 33.33%;
+        padding: 10px;
+    }
+    .second-break {
+        display: flex;
+        justify-content: space-between;
+    }
+    header,
+    footer {
+        background-color: rgba(223, 231, 253, 0.3)
+    }
+    h1 {
+        padding-left: 10px;
+    }
+}
