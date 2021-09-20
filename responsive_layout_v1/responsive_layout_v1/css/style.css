@@ -109,6 +109,7 @@ body {
 .second-foot {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .hide {
@@ -133,11 +134,17 @@ a.hide,
 
 .hide1,
 a.topper {
-    width: 221px;
+    width: 240px;
 }
 
 .hide1 {
     color: #0089C4;
+}
+
+.topper {
+    position: absolute;
+    right: 0px;
+    padding: 10px 15px;
 }
 
 
