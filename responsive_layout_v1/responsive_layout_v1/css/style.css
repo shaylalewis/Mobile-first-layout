@@ -10,6 +10,7 @@ body {
     font-family: 'Oxygen', sans-serif;
     margin: 0;
     padding: 0 1.2rem;
+    text-align: center;
 }
 
 a {
@@ -62,6 +63,9 @@ nav a,
 }
 
 .topper {
+    position: absolute;
+    right: 0px;
+    padding: 10px 15px;
     padding-left: 122px;
     padding-top: 23px;
 }
@@ -100,10 +104,7 @@ a:active {
 header {
     text-align: center;
     padding-top: 5px;
-}
-
-body {
-    text-align: center;
+    margin-top: 10px;
 }
 
 .second-foot {
@@ -132,19 +133,8 @@ a.hide,
     font-weight: 700;
 }
 
-.hide1,
-a.topper {
-    width: 240px;
-}
-
 .hide1 {
     color: #0089C4;
-}
-
-.topper {
-    position: absolute;
-    right: 0px;
-    padding: 10px 15px;
 }
 
 
