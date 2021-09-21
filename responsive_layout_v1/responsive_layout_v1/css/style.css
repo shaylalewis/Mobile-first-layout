@@ -118,6 +118,47 @@ header {
 }
 
 
+/* Skills */
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #000;
+}
+
+div#skills {
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.html {
+    width: 65%;
+    background-color: #04AA6D;
+}
+
+.css {
+    width: 45%;
+    background-color: #2196F3;
+}
+
+.js {
+    width: 4%;
+    background-color: #f44336;
+}
+
+.figma {
+    width: 25%;
+    background-color: #808080;
+    margin-bottom: 15px;
+}
+
+
 /* ---- Page Elements ---- */
 
 ul {
